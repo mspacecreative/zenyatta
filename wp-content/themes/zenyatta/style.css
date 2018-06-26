@@ -1,0 +1,158 @@
+/*
+ Theme Name:   Zen Forward
+ Theme URI:    http://rileyhomecare.com/
+ Description:  Zenyatta Ventures Custom Theme
+ Author:       Matt Cyr
+ Author URI:   http://mspacecreative.com
+ Template:     Divi
+ Version:      1.0
+*/
+
+body {
+	font-family: 'Spinnaker', sans-serif;
+}
+
+.homepage-heading {
+	border: 3px solid #fff;
+	padding: 25px;
+}
+
+.home h1 {
+	padding-bottom: 0;
+}
+
+.homepage-heading h1 {
+	font-size: 52px;
+}
+
+.home h2 {
+	line-height: 1.5em;
+	font-size: 18px;
+}
+
+h2, h4 {
+	line-height: 1.25em;
+}
+
+#main-footer h2 {
+	text-align: center;
+	margin: 0;
+	padding: 25px 0 0;
+	font-size: 34px;
+}
+
+.wpcf7 input[type=text], .wpcf7 textarea, .wpcf7 input[type=email] {
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	font-family: 'Spinnaker', sans-serif;
+}
+
+.wpcf7-submit {
+	border: none;
+	background: #000;
+	color: #fff;
+	padding: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#footer-widgets {
+	text-align: center;
+}
+
+#custom_html-2 p:last-of-type {
+	text-align: left;
+}
+
+#custom_html-2, #custom_html-3, #custom_html-4 {
+	width: 100%;
+}
+
+.fa.footer-icons {
+	font-size: 50px;
+	text-align: center;
+	margin: 0 0 15px;
+	display: block;
+}
+
+.home h3 {
+	line-height: 1.5em;
+	font-size: 31px;
+	letter-spacing: -.02em;
+	margin: 0 0 25px;
+}
+
+.nominees-heading {
+	
+}
+
+.portrait-container {
+	position: relative;
+	top: -70px;
+}
+
+.portrait-container .et_pb_image_wrap {
+	position: relative;
+}
+
+.portrait-container .et_pb_image_wrap:before {
+	position: absolute;
+	content: '';
+	border: 2px solid #e9e9e9;
+	right: -15px;
+	top: 15px;
+	height: 100%;
+	width: 100%;
+}
+
+.nominee-name h4 {
+	margin-top: 15px;
+	font-size: 22px;
+	padding-bottom: 5px;
+}
+
+.vote-now h1 {
+	line-height: 1em;
+	font-size: 52px;
+	padding: 0;
+}
+
+.vote-now .et_pb_button {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.press-release-divider {
+	border-top: 4px solid rgba(189, 191, 55, 1);
+	border-bottom: 1px solid rgba(189, 191, 55, 1);
+	padding: 2px 0 0 0;
+	margin: 25px 0;
+}
+
+.press-release-divider:last-of-type {
+	display: none;
+}
+
+.press-date {
+	margin: 5px 0 15px;
+	color: #999;
+}
+
+.press-description {
+	color: #000;
+}
+
+.icons-container .et_pb_image img {
+	max-width: 80px;
+}
+
+@media (max-width: 550px) {
+	
+.vote-now .et_pb_button {
+	position: relative;
+	bottom: auto;
+	right: auto;
+}
+}
